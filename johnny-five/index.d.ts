@@ -83,6 +83,7 @@ export interface BoardOptions {
     id?: number | string;
     port?: string | any;
     repl?: boolean;
+    io?: any;
 }
 
 export interface Repl {
